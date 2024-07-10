@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    background-color:#222831
+}
+.head{
+    text-align:left;
+}
+.main_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color:#31363F;
+    color: aliceblue;
+   
+}
+.character_container{
+    display: flex;
+    gap: 20px;
+    width: 45%;
+    border: 5px solid gray;
+}
+.character_image{
+    height: 200px;
+   width:200px;
+}
+.button{
+    display: flex;
+    gap: 10px;
+    
+}
+.bt{
+    background-color: aliceblue;
+    color: #31363F;
+}
